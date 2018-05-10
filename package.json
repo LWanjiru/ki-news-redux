@@ -1,0 +1,19 @@
+{
+  "name": "ki-news-redux",
+  "version": "1.0.0",
+  "description": "Consume NewsAPI with react-redux",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LWanjiru/ki-news-redux.git"
+  },
+  "author": "Linnette Wanjiru",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LWanjiru/ki-news-redux/issues"
+  },
+  "homepage": "https://github.com/LWanjiru/ki-news-redux#readme"
+}
