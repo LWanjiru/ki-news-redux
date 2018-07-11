@@ -4,10 +4,10 @@
   "description": "Consume NewsAPI with react-redux",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest && npm run coverage",
     "test:watch": "jest --watch",
     "coverage": "open coverage/lcov-report/*.html",
-    "test:coverage": "jest && npm run coverage",
+    "test:no-coverage": "jest",
     "lint": "eslint **.js",
     "start": "webpack-dev-server --mode development --open",
     "build": "webpack --mode production"
