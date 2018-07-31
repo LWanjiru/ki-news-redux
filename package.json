@@ -11,7 +11,6 @@
     "coverage": "open coverage/lcov-report/*.html",
     "test:no-coverage": "jest",
     "lint": "eslint **.js"
-    
   },
   "jest": {
     "setupTestFrameworkScriptFile": "<rootDir>__tests__/setup/setupEnzyme.js",
@@ -37,8 +36,6 @@
     "babel-core": "^6.26.3",
     "babel-jest": "^23.0.1",
     "babel-loader": "^7.1.4",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-react": "^6.24.1",
     "css-loader": "^0.28.11",
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
@@ -59,9 +56,12 @@
     "webpack-dev-server": "^3.1.4"
   },
   "dependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
-    "react-redux": "^5.0.7"
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1"
   },
   "env": {
     "jest/globals": true,
